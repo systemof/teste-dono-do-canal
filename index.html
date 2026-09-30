@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Teste Fechado - Dono do Canal</title>
+
+  <meta name="description"
+        content="Instruções para participar do teste fechado do aplicativo Android Dono do Canal.">
 
   <style>
     * {
@@ -20,7 +24,7 @@
 
     .container {
       width: 100%;
-      max-width: 680px;
+      max-width: 720px;
       margin: 0 auto;
     }
 
@@ -29,23 +33,35 @@
       margin-bottom: 28px;
     }
 
+    .logo {
+      font-size: 48px;
+      margin-bottom: 8px;
+    }
+
     .topo h1 {
       color: #ffd21c;
-      margin-bottom: 10px;
+      margin: 0 0 12px 0;
       font-size: 30px;
+      line-height: 1.2;
     }
 
     .topo p {
-      color: #cfcfcf;
-      line-height: 1.5;
+      color: #d0d0d0;
+      line-height: 1.6;
       font-size: 17px;
+      margin: 8px 0;
+    }
+
+    .destaque {
+      color: #ffd21c;
+      font-weight: bold;
     }
 
     .card {
       background: #151515;
-      border: 1px solid #333;
-      border-radius: 18px;
-      padding: 22px;
+      border: 1px solid #343434;
+      border-radius: 20px;
+      padding: 26px;
       margin-bottom: 18px;
     }
 
@@ -53,22 +69,24 @@
       display: inline-flex;
       align-items: center;
       justify-content: center;
-      width: 38px;
-      height: 38px;
+      width: 48px;
+      height: 48px;
       border-radius: 50%;
       background: #ffd21c;
-      color: #000;
+      color: #000000;
       font-weight: bold;
-      margin-bottom: 10px;
+      font-size: 20px;
+      margin-bottom: 14px;
     }
 
     h2 {
-      margin: 0 0 10px 0;
-      font-size: 21px;
+      margin: 0 0 12px 0;
+      font-size: 23px;
     }
 
     p {
-      line-height: 1.6;
+      line-height: 1.65;
+      font-size: 16px;
     }
 
     .botao {
@@ -79,33 +97,85 @@
       color: #000000;
       text-decoration: none;
       font-weight: bold;
-      font-size: 17px;
-      padding: 16px;
-      margin-top: 16px;
-      border-radius: 12px;
+      font-size: 18px;
+      padding: 18px;
+      margin-top: 18px;
+      border-radius: 14px;
+      transition: 0.2s;
     }
 
     .botao:hover {
-      background: #ffe05c;
+      background: #ffe264;
+      transform: translateY(-1px);
+    }
+
+    .info {
+      margin-top: 16px;
+      padding: 16px;
+      border-radius: 12px;
+      background: #0d0d0d;
+      border: 1px solid #303030;
+      color: #cccccc;
+    }
+
+    .info strong {
+      color: #ffd21c;
+    }
+
+    .mobile {
+      border-left: 4px solid #ffd21c;
+    }
+
+    .pc {
+      border-left: 4px solid #777777;
     }
 
     .aviso {
-      background: #1d1908;
+      background: #1b1808;
       border: 1px solid #ffd21c;
-      border-radius: 16px;
-      padding: 18px;
-      margin-top: 22px;
+      border-radius: 18px;
+      padding: 22px;
+      margin-top: 24px;
     }
 
     .aviso strong {
       color: #ffd21c;
     }
 
+    .url {
+      margin-top: 12px;
+      padding: 12px;
+      background: #0b0b0b;
+      border-radius: 10px;
+      color: #bdbdbd;
+      font-size: 13px;
+      overflow-wrap: anywhere;
+    }
+
     .rodape {
       text-align: center;
-      color: #999;
-      margin-top: 30px;
+      color: #888888;
+      margin-top: 32px;
+      padding-bottom: 20px;
       font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 15px;
+      }
+
+      .card {
+        padding: 20px;
+      }
+
+      .topo h1 {
+        font-size: 26px;
+      }
+
+      .botao {
+        font-size: 16px;
+      }
     }
   </style>
 </head>
@@ -115,71 +185,145 @@
 <div class="container">
 
   <div class="topo">
+
+    <div class="logo">👑</div>
+
     <h1>Teste Fechado — Dono do Canal</h1>
 
     <p>
-      Oi! Preciso de ajuda no teste fechado do app Android do
+      Oi! Preciso de ajuda no teste fechado do aplicativo Android
       <strong>Dono do Canal</strong>.
     </p>
 
     <p>
-      São apenas 3 passos. Use a mesma conta Google em todo o processo.
+      São apenas <span class="destaque">3 passos</span>.
+      Use a <strong>mesma conta Google</strong> em todo o processo.
     </p>
+
   </div>
 
+
+  <!-- PASSO 1 -->
+
   <div class="card">
+
     <div class="numero">1</div>
 
     <h2>Entre no grupo de testadores</h2>
 
     <p>
-      Entre no Google Group usando a mesma conta Google que você utiliza
-      na Play Store.
+      Entre no Google Group usando a
+      <strong>mesma conta Google que você utiliza na Play Store</strong>.
     </p>
 
     <a class="botao"
        href="https://groups.google.com/g/testadores-do-app-dono-do-canal"
-       target="_blank">
+       target="_blank"
+       rel="noopener noreferrer">
       ENTRAR NO GRUPO
     </a>
+
+    <div class="url">
+      https://groups.google.com/g/testadores-do-app-dono-do-canal
+    </div>
+
   </div>
 
+
+  <!-- PASSO 2 -->
+
   <div class="card">
+
     <div class="numero">2</div>
 
     <h2>Aceite participar do teste</h2>
 
     <p>
-      Depois de entrar no grupo, abra o link abaixo e confirme sua
-      participação no teste fechado.
+      Depois de entrar no grupo, abra o link abaixo e confirme que deseja
+      participar do teste fechado do aplicativo.
     </p>
 
     <a class="botao"
        href="https://play.google.com/apps/testing/br.com.donodocanal.app"
-       target="_blank">
+       target="_blank"
+       rel="noopener noreferrer">
       PARTICIPAR DO TESTE
     </a>
+
+    <div class="url">
+      https://play.google.com/apps/testing/br.com.donodocanal.app
+    </div>
+
   </div>
 
+
+  <!-- PASSO 3 -->
+
   <div class="card">
+
     <div class="numero">3</div>
 
-    <h2>Instale o app</h2>
+    <h2>Instale o app no celular</h2>
 
     <p>
-      Após aceitar participar do teste, instale o Dono do Canal pela
-      Google Play.
+      Depois de aceitar participar do teste, instale o
+      <strong>Dono do Canal</strong> pela Google Play.
     </p>
+
+    <div class="info mobile">
+
+      <strong>📱 Se você estiver no celular Android</strong>
+
+      <p>
+        Esta é a forma recomendada.
+        Toque no botão abaixo e instale o aplicativo diretamente pela
+        Google Play no seu celular.
+      </p>
+
+    </div>
+
+
+    <div class="info pc">
+
+      <strong>💻 Se você estiver no computador</strong>
+
+      <p>
+        Também é possível solicitar a instalação pela Google Play na Web.
+      </p>
+
+      <p>
+        Abra o link usando a mesma conta Google utilizada no teste,
+        clique em <strong>Instalar</strong> e escolha o seu celular Android
+        entre os dispositivos vinculados à sua conta.
+      </p>
+
+      <p>
+        Depois disso, o Google Play enviará a instalação para o aparelho
+        selecionado.
+      </p>
+
+    </div>
+
 
     <a class="botao"
        href="https://play.google.com/store/apps/details?id=br.com.donodocanal.app"
-       target="_blank">
+       target="_blank"
+       rel="noopener noreferrer">
       INSTALAR O APP
     </a>
+
+    <div class="url">
+      https://play.google.com/store/apps/details?id=br.com.donodocanal.app
+    </div>
+
   </div>
 
+
+  <!-- AVISO -->
+
   <div class="aviso">
-    <strong>Importante</strong>
+
+    <strong>⚠️ Importante</strong>
 
     <p>
       Se puder, mantenha-se inscrito no teste durante os próximos
@@ -188,19 +332,27 @@
 
     <p>
       Pode levar alguns minutos para que o link da Google Play funcione
-      depois que você optar por participar.
+      depois que você optar por participar do teste.
     </p>
 
     <p>
-      Muito obrigado pela ajuda!
+      Lembre-se de usar a
+      <strong>mesma conta Google no grupo, no teste e na Play Store</strong>.
     </p>
+
+    <p>
+      Muito obrigado pela ajuda! 💛
+    </p>
+
   </div>
 
+
   <div class="rodape">
-    Dono do Canal • Teste fechado Android
+    Dono do Canal • Teste Fechado Android
   </div>
 
 </div>
 
 </body>
 </html>
+
